@@ -5,30 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="responsive.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e4fc50e010.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <script src="menu.js"></script>
     <title>WHC.training</title>
 </head>
 <body>
-    hfoihewhsfdsfkdsjfds
+    
 <div class="container">   
     <!-- --------------------------------PAGE01--------------------------------  -->
     <div class="nav001">
-        <div class="page01">
+        <!-- <div class="page01"> -->
             <div class="nav-list">
-                <div>
-                    <a href="">
-                        <img  class="nav-item" id="nav-logo" src="/images/img/Logo1.png" alt="logo">
-                    </a>
+                <div id="toggle">
+                    <i class="fa-solid fa-bars fa-2x"></i>
                 </div>
-                <div style="margin-top: 1.25em;">
-                    <a href="" class="nav-item">GIỚI THIỆU</a>
-                    <a href="" class="nav-item">HƯỚNG DẪN SỬ DỤNG</a>
-                    <a href="" class="nav-item">THỦ TỤC-BIỂU MẪU</a>
-                    <a href="" class="nav-item">HỖ TRỢ</a>
-                    <a href="/LogIn.html " target="_blank"><button class="nav-item button-nav">ĐĂNG NHẬP</button></a>
-                    <a href=""><button class="nav-item button-nav">ĐĂNG KÝ</button></a>
-                </div>
+                <nav style="margin-top: 1.25em;">
+                    <ul id="main-menu">
+                        <li><a href="" style="color: rgb(11, 11, 104) !important;" >GIỚI THIỆU</a></li>
+                        <li><a href="" style="color: rgb(11, 11, 104) !important;">HƯỚNG DẪN SỬ DỤNG</a></li>
+                        <li><a href="" style="color: rgb(11, 11, 104) !important;">THỦ TỤC-BIỂU MẪU</a></li>
+                        <li><a href="" style="color: rgb(11, 11, 104) !important;">HỖ TRỢ</a></li>
+                        <li><a href="/LogIn.html " target="_blank"style="color: rgb(11, 11, 104) !important;" class="btn">ĐĂNG NHẬP</a></li>
+                        <li><a href=""class="nav-item "style="color: rgb(11, 11, 104) !important;" class="btn">ĐĂNG KÝ</a></li>
+                    </ul>   
+                </nav>
+           
             </div>
             <div class="text1">
                 <h1><br><br>DỊCH VỤ MỘT CỬA ĐIỆN TỬ</h1>
@@ -39,13 +43,11 @@
                     phòng thí nghiệm, không gian sự kiện và trưng bày triển lãm
                 </p>
             </div>
-        </div>
+        <!-- </div> -->
     </div>
     <!-- --------------------------------BODY--------------------------------  -->
         <!-- --------------------------------PAGE02--------------------------------  -->
         <div class="nav002">
-            <div class="img002">
-            </div>
             <div class="page02">
                 <div style=" margin-top: 3.75em; margin-right: 3.125em;">
                     <!-- column01 -->
@@ -200,7 +202,7 @@
                     từ đó mang lại sự hài lòng tuyệt đối cho doanh nghiệp</p>
             </div>
             <div class="nav005" >
-                <div   style=" margin-right: 2em;margin-top: 1em;">
+                <div   style=" margin-right: 1.5em;margin-top: 1em;">
                     <div class="page05-circle" style="background-image: url(images/img/pic16.png);"> </div>
                     <div class="page05-column">
                         <p style="font-style: italic; ">"Tôi học hỏi được nhiều và thực sự đã mở mang tư duy để sẵn sàng đón nhận những cơ hội mới
@@ -210,7 +212,7 @@
                         <p style="">Giám đốc Điều hành VINFAST</p>
                     </div>
                 </div>
-                <div  style="margin-right:  2em; margin-top: 1em;">
+                <div  style="margin-right: 1.5em; margin-top: 1em;">
                     <div class="page05-circle " style="background-image: url(images/img/Picture17.png);"></div>
                     <div class="page05-column">
                         <p style="font-style: italic; ">Tôi học hỏi được nhiều và thực sự đã mở mang tư duy để sẵn sàng đón nhận những cơ hội mới
@@ -240,9 +242,8 @@
             lĩnh vực, ngành nghề</p>
     </div>
     <div class="nav006">
-        <div  class="img002"></div>
         <div class="page06">
-            <div style="margin-right: 1.8em;">
+            <div style="margin-right: 1.8em;" class="page06-column">
                 <a href="">
                     <div class="page06-column01 ">
                         <h3 style="color: white; margin-left: 0.9em;padding-top: 10em;">Khoa học</h3>
@@ -254,7 +255,7 @@
                     </div>
                 </a>
             </div>
-            <div style="margin-right: 1.8em;">
+            <div style="margin-right: 1.8em;" class="page06-column">
                 <a href="">
                     <div class="page06-column03">
                         <h3 style="color: white; margin-left: 0.9em;padding-top: 15em;">Viễn tưởng</h3>
@@ -266,7 +267,7 @@
                     </div>
                 </a>
             </div>
-            <div >
+            <div class="page06-column">
                 <a href="">
                     <div class="page06-column05">
                         <h3 style="color: white; margin-left: 0.9em;padding-top: 11em;">Chuyển đổi số</h3>

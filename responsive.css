@@ -1,0 +1,73 @@
+@media (min-width: 47em) and (max-width: 64em) {
+    .page02{
+        margin-left: 9.375em;
+    }   
+    .page06{
+        margin-left: 9.375em;
+    }
+    .page06-column{
+          margin-top: 1.5em;
+    }
+    #main-menu{
+        flex-direction: column;
+    }
+    #toggle{
+        display: block;
+    }
+}
+@media screen and (max-width: 48em) {
+    #main-menu{
+        flex-direction: column;
+    }
+    #toggle{
+        display: block;
+    }
+    .text1{
+        margin-left: 3em;
+    }
+    .page02{
+        margin-left: 3em;
+    }
+    .nav002{
+        background-image: linear-gradient(to right,rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8)), 
+        url(images/img/photo03.png);
+    }
+    .page02-text-02{
+        margin-top: 3.125em;
+    }
+    .page03{
+        margin-left: 3em;
+    }
+    .nav003{
+        background-image: linear-gradient(to right,rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8)), 
+        url(images/img/photo04.png);
+    }
+    .nav004{
+        background-image: linear-gradient(to right,rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8)), 
+        url(images/img/photo05.png);
+    }
+    .page04{
+        margin-left: 3em;
+    }
+    .nav005{
+        margin-left: 3em;
+    }
+    .page06{
+         margin-left: 3em;
+    }
+    .nav006{
+        background-image: linear-gradient(to right,rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8)), 
+        url(images/img/photo06.png);
+    }
+    .page06-column{
+        margin-top: 1.5em;
+    }
+    
+    .icon-footer{
+        margin-left: 1.875em;
+    }
+    #nav2-logo{
+        margin-left: 0;
+    }
+}
+
