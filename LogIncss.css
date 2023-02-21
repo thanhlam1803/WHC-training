@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    font-family: Tahoma,Geneva, sans-serif; 
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    color: rgb(11, 11, 104);
+    height: 100%;
+    font-size: 16px;
+}
+.logIn{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.logIn_left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    background-image: url(logIn_img/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.logIn_right{
+    width: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+#form-login{
+    max-width: 100%;
+    margin-right: 20px;
+    background-image: linear-gradient(to right,rgba(88, 35, 175, 0.3),rgba(40, 38, 174, 0.3));
+    padding: 30px 30px 40px;
+    box-shadow: 0 8px 16px 0 rgba(189, 202, 230, 0.995), 0 6px 20px 0 rgba(189, 202, 230, 0.995);
+    flex-grow: 1;
+}
+#form-heading{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.form-group{
+    border-bottom: 1px solid rgb(11, 11, 104);
+    margin-top: 15px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.form-input{
+    background:transparent ;
+    flex-grow: 1;
+    border: 0;
+    outline: 0;
+    padding-left: 10px;
+}
+.form-input::placeholder{
+    color: rgb(11, 11, 104);
+}
+.form-submit{
+    background:transparent;
+    border: 1px  solid rgb(11, 11, 104);
+    width: 100%;
+    padding: 6px 10px;
+}
+.form-submit:hover{
+    color: white;
+    border: 1px  solid white;
+}
+#eye i{
+    cursor: pointer;
+}
+@media screen and (max-width: 768px){
+    .logIn{
+        flex-direction: column;
+    }
+    .logIn_right{
+        width: 100%;
+    }
+    .logIn_left{
+        width: 100%;
+    }
+    #form-login{
+        margin-right: 0;
+    }
+}
