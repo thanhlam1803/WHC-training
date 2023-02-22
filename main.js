@@ -11,20 +11,15 @@ $(document).ready(function(){
     });
 });
  function checkValidate(){
-    var username = $('#Email').value;
-	var password = $('#passWord').value;
+    var username = document.getElementById('Email').value;
+	var password = document.getElementById('passWord').value;
     var email = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-    var check = true;
     if( username == "" || password == ""){
         alert(" Hãy điền đầy đủ thông tin !");
-        check = false;
-    }
-    if (!email.test(username)) { 
+        return false;
+    }else if(!email.test(username)){
         alert('Hãy nhập đúng định dạng email.\nExample@gmail.com');
-        email.focus; 
-        check = false;
+    }else {
+        alert("Chúc mừng " +username+ " đã đăng nhập thành công!");
     }
-    if(check){
-        alert("Chúc mừng " +username+ " đã đăng nhập thành công!")
-    }
- }
+}

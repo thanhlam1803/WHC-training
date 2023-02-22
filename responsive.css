@@ -1,4 +1,16 @@
 @media (min-width: 47em) and (max-width: 64em) {
+    /* .nav-list{
+        background-position-x:5em ;
+        background-image: linear-gradient(to right,rgba(231, 207, 235, 0.8),rgba(200, 213, 234, 0.8)), 
+        url(images/img/Logo1.png);
+    } */
+    .nav001{
+        background-image: linear-gradient(to right,rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8)), 
+        url(images/img/photo001.png);
+    }
+    .text1{
+        margin-top: 9em;
+    }
     .page02{
         margin-left: 9.375em;
     }   
@@ -16,6 +28,16 @@
     }
 }
 @media screen and (max-width: 48em) {
+    .nav-list{
+        background-position-x:2em ;
+    }
+    .nav001{
+        background-image: linear-gradient(to right,rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8)), 
+        url(images/img/photo001.png);
+    }
+    .nav-list{
+        background-size: contain;
+    }
     #main-menu{
         flex-direction: column;
     }
@@ -23,6 +45,7 @@
         display: block;
     }
     .text1{
+        margin-top: 9em;
         margin-left: 3em;
     }
     .page02{
@@ -70,4 +93,3 @@
         margin-left: 0;
     }
 }
-
